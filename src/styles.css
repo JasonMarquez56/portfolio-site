@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@fontsource/montserrat";
+
+p {
+  font-family: montserrat;
+  color: #ebdbb2;
+}
+
+h1 {
+  color: #ebdbb2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
