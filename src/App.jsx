@@ -7,7 +7,7 @@ const App = () => {
     <>
       <section
         id="home"
-        className="min-h-screen bg-[#252423] pt-24 md:pt-64 px-8 flex flex-col md:flex-row items-center md:items-start justify-center gap-12"
+        className="min-h-screen bg-[#252423] pt-32 md:pt-64 px-8 flex flex-col md:flex-row items-center md:items-start justify-center gap-12"
       >
         <HomeSection />
       </section>
