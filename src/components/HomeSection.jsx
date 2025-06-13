@@ -22,7 +22,7 @@ const HomeSection = () => {
       threshold={0.1}
       delay={0}
     >
-      <div className="w-72 h-72">
+      <div className="w-32 h-32 md:w-72 md:h-72">
         <img
           src={profileimage}
           alt="Jason Marquez"
@@ -45,7 +45,7 @@ const HomeSection = () => {
       delay={0}
     >
       <div className="max-w-xl text-center md:text-left">
-        <h1 className="text-4xl font-bold">
+        <h1 className="md:text-4xl text-2xl font-bold">
           Hi, I'm Jason Marquez
         </h1>
         <p className="text-lg mt-4">

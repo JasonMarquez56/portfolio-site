@@ -7,7 +7,14 @@ const ProjectSection = () => {
         PROJECTS
       </h1>
       <div className="flex justify-start gap-16 flex-col md:flex-row px-8">
-        <ProjectCard />
+        <ProjectCard 
+          name={'Color Sensor'}
+          description={'An Android app that extracts dominant colors from photos using image processing and Firebase.'}
+          gitHubLink={'https://github.com/JasonMarquez56/ColorSensor.git'}/>
+        <ProjectCard 
+          name={'Portfolio Website'}
+          description={'A responsive portfolio website built with React to showcase projects, skills, and contact information.'}
+          gitHubLink={'https://github.com/JasonMarquez56/portfolio-site.git'}/>
       </div>
     </div>
   )
